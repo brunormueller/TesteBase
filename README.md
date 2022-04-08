@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Processo pra desenvolvimento
+
+1° git pull -> update dos arquivos/Atualizar os arquivos
+
+	desenvolvimento
+
+2° git  add . -> adiciona/prepara todos os arquivos pra commit ()
+
+3° git commit -m "mensagem de commiti" ->  envia pra repositorio loca
+
+4° git push -> envia para o cervidor o que foi commitado

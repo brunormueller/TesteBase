@@ -19,9 +19,6 @@ export default class LoginUser extends Component {
 
           <div><label className="lbReptSenha">Repetir Senha<input className="cpReptSenha" type="text" id="reptSenha" /></label></div>
   
-
-
-  
         </div> 
         <div class="btnAcesso">
           <a href="#" class="btn btn-white btn-				 animate">Acessar</a>
