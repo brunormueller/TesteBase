@@ -1,0 +1,121 @@
+.cadastroUsusario {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: #282c34;
+    color: white;
+  }
+  .BolcoLogin{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 68px;
+    font-size: calc(20px);
+    background-color: #282c34;
+    color: white;
+    border-radius: 20px;
+  }
+  .BolcoLogin1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: calc(100vh - 95.25px);
+  }  
+  .cpCodUser{
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: calc(20px);
+    align-content: left;
+  }
+  .cpLoginUser{
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: calc(20px);
+    align-content: center;
+  }
+  .cpSenha{
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: calc(20px);
+    align-content: center;
+  }
+  .cpReptSenha{
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: calc(20px);
+    align-content: center;
+  }
+  .lbCodUser{
+    margin-left: 0px;
+  }
+  .lbLoginUser{
+    margin-left: 80px;
+  }
+  .lbSenha{
+    margin-left: 80px;
+  }
+  .lbReptSenha{
+    margin-left: 10px;
+  }
+  .btnAcesso {
+      margin-left: 44vw;
+       margin-top: 42vh;
+  }
+  
+  .btn:link,
+  .btn:visited {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+  }
+  
+  .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:active {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-white {
+      background-color: #fff;
+      color: #777;
+  }
+  
+  .btn::after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      border-radius: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s;
+  }
+  
+  .btn-white::after {
+      background-color: #fff;
+  }
+  
+  .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+  }
+  
+  .btn-animated {
+      animation: moveInBottom 5s ease-out;
+      animation-fill-mode: backwards;
+  }
