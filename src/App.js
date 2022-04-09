@@ -13,15 +13,5 @@ class App extends Component{
   }
 }
 
-/*import LoginUser from "./login-user/LoginUser"
-class App extends Component{
-  render() {
-    return (
-      <div className="App">
-        <LoginUser/>
-      </div>
-    );
-  }
-}*/
 
 export default App;

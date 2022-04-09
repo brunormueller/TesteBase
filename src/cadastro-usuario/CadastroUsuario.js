@@ -8,21 +8,21 @@ export default class CadastroUsusario extends Component {
         <div className="cadastroUsusario">
             <p>Cadastro de usuario</p>
         </div>
-      <div className="BolcoLogin1">  
-        <div className="BolcoLogin">
+        <div className="BlocoLogin1">  
+          <div className="BlocoLogin">
 
-          <div><label className="lbCodUser">Codigo Usuario<input className="cpCodUser" type="number" id="codUser" /></label></div>
+            <div><label className="lbCodUser">Codigo Usuario<input className="cpCodUser" type="number" id="codUser" /></label></div>
 
-          <div><label className="lbLoginUser">Nome<input className="cpLoginUser" type="text" id="loginUser" /></label></div>
+            <div><label className="lbLoginUser">Nome<input className="cpLoginUser" type="text" id="loginUser" /></label></div>
 
-          <div><label className="lbSenha">Senha<input className="cpSenha" type="text" id="senha" /></label></div>
+            <div><label className="lbSenha">Senha<input className="cpSenha" type="text" id="senha" /></label></div>
 
-          <div><label className="lbReptSenha">Repetir Senha<input className="cpReptSenha" type="text" id="reptSenha" /></label></div>
+            <div><label className="lbReptSenha">Repetir Senha<input className="cpReptSenha" type="text" id="reptSenha" /></label></div>
 
-        </div> 
-        <div class="btnAcesso">
-          <a href="#" class="btn btn-white btn-				 animate">Acessar</a>
-        </div>
+            <div className='teste1'><a href="" className="btn btn1">SALVAR</a></div>
+            <div className='teste1'><a href="" className="btn btn2">EXCLUIR</a></div>
+            
+          </div>
         </div>
       </div>
     )
