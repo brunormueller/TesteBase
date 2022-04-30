@@ -1,6 +1,8 @@
 
                 >>  VERIFICAR REGRAS E PADROES DE DESENVOLVIMENTO PARA INTERFACE NO DOCUMENTO Requisitos\Padrões de interface  <<
 
+                >>  APENAS ADMINISTRADORES PODERAM REALIZAR O CADASTRO, EXCLUSÃO E ALTERAÇÃO DOS REGISTROS  <<
+
 1.	Tela de cadastro de usuário:
 
     1.1.	Preenchimento automático
